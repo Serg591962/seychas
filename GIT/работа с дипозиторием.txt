@@ -1,0 +1,19 @@
+cd "/d/we _earn_English" - переход в папку
+git init
+git add .
+git commit -m "2 day"
+
+Клонировать репозиторий на GitHub
+pwd => /d/we _earn_English -> путь и имя репозитория
+Открой GitHub
+Нажми "New repository"
+Введи имя (we _earn_English, без кириллицы)
+Нажми "Create repository"
+git remote add origin https://github.com/Serg591962/we-_earn_English.git => Подключи правильный URL в Git, обновиd его URL в локальном репозитории:
+git push -u origin main => перенос файлов на гитхаб
+
+Клонировать репозиторий на компьютер
+Перейди на страницу твоего репозитория на GitHub
+Нажми на кнопку "Code" и скопируй ссылку => https://github.com/Serg591962/we-_earn_English.git
+Открой Git Bash на новом компьютере в том месте, где хочешь сохранить проект.
+Введи команду для клонирования репозитория:git clone https://github.com/Serg591962/we-_earn_English.git
